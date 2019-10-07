@@ -6,47 +6,47 @@
 public class Main
 {
   public static void main(String [] args){
-    int qualMês = 1;
+    int qualMês = 3;
     String nomeDoMês;
     switch(qualMês) {
       case 1:
         nomeDoMês = "Janeiro";
         break;
       case 2:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Fevereiro";
         break;
       case 3:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Março";
         break;
       case 4:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Abril";
         break;
       case 5:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Maio";
         break;
       case 6:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Junho";
         break;
       case 7:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Julho";
         break;
       case 8:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Agosto";
         break;
       case 9:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Setembro";
         break;
       case 10:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Outubro";
         break;
       case 11:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Novembro";
         break;
       case 12:
-        nomeDoMês = "Janeiro";
+        nomeDoMês = "Dezembro";
         break;
       default:
-        nomeDoMês = "Não definido";
+        nomeDoMês = "Não esta definido";
     }
     System.out.println("O mês " + qualMês + " é " + nomeDoMês);
 
